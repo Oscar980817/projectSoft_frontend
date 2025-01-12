@@ -1,0 +1,85 @@
+.edit-daily-report {
+  background-color: #2E3542;
+  color: #FFFFFF;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+.activities-list {
+  margin-top: 20px;
+}
+
+.activity-item {
+  background-color: #3C434F;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #4a515f;
+  color: #FFFFFF;
+}
+
+.activity-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.measurements, .discounts, .observations {
+  background-color: #2E3542;
+  padding: 15px;
+  border-radius: 4px;
+  border: 1px solid #4a515f;
+}
+
+h3 {
+  color: #EAB308;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+h4 {
+  color: #EAB308;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #4a515f;
+  padding-bottom: 5px;
+}
+
+.activity-details p {
+  margin: 8px 0;
+  color: #FFFFFF;
+}
+
+.activity-details strong {
+  color: #EAB308;
+}
+
+.activity-image {
+  margin-top: 15px;
+  text-align: center;
+  background-color: #2E3542;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.activity-image img {
+  max-width: 100%;
+  max-height: 300px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.button-group button {
+  background-color: #EAB308;
+  color: #3C434F;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-group button:hover {
+  background-color: #d4a106;
+}

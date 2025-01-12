@@ -1,0 +1,129 @@
+.daily-activity {
+  background-color: #2E3542;
+  color: #FFFFFF;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+.activity-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.activity-form input,
+.activity-form button,
+.activity-form textarea {
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+}
+
+.activity-form button {
+  background-color: #EAB308;
+  color: #3C434F;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.activity-form button:hover {
+  background-color: #d4a106;
+}
+
+.activities-list {
+  margin-top: 20px;
+}
+
+.activity-item {
+  background-color: #3C434F;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.activity-item button {
+  background-color: #EAB308;
+  color: #3C434F;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.activity-item button:hover {
+  background-color: #d4a106;
+}
+
+/* Estilos para la sección de informes */
+
+.report-section {
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: #3C434F;
+  border-radius: 8px;
+}
+
+.report-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.report-form textarea {
+  padding: 0.5rem;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  background-color: #2E3542;
+  color: #FFFFFF;
+  min-height: 100px;
+}
+
+.report-form button {
+  background-color: #EAB308;
+  color: #3C434F;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.report-form button:hover {
+  background-color: #d4a106;
+}
+
+.reports-section {
+  margin-top: 2rem;
+}
+
+.reports-list {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.report-item {
+  padding: 1rem;
+  border: 1px solid #2E3542;
+  border-radius: 4px;
+  background-color: #3C434F;
+  color: #FFFFFF;
+}
+
+.report-item button {
+  margin-top: 1rem;
+  background-color: #EAB308;
+  color: #3C434F;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.report-item button:hover {
+  background-color: #d4a106;
+}

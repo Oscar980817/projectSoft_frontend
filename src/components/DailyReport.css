@@ -1,0 +1,42 @@
+.daily-report {
+    background-color: #171F2D;
+    color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px;
+  }
+  
+  .report-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .report-form input,
+  .report-form button {
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+  }
+  
+  .report-form button {
+    background-color: #EAB308;
+    color: #3C434F;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .report-form button:hover {
+    background-color: #d4a106;
+  }
+  
+  .reports-list {
+    margin-top: 20px;
+  }
+  
+  .report-item {
+    background-color: #2E3542;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
