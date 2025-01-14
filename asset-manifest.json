@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/projectSoft_frontend/static/css/main.45b07dd9.css",
-    "main.js": "/projectSoft_frontend/static/js/main.996ed648.js",
+    "main.js": "/projectSoft_frontend/static/js/main.d7b2c4e9.js",
     "static/js/453.01ccef9d.chunk.js": "/projectSoft_frontend/static/js/453.01ccef9d.chunk.js",
     "index.html": "/projectSoft_frontend/index.html",
     "main.45b07dd9.css.map": "/projectSoft_frontend/static/css/main.45b07dd9.css.map",
-    "main.996ed648.js.map": "/projectSoft_frontend/static/js/main.996ed648.js.map",
+    "main.d7b2c4e9.js.map": "/projectSoft_frontend/static/js/main.d7b2c4e9.js.map",
     "453.01ccef9d.chunk.js.map": "/projectSoft_frontend/static/js/453.01ccef9d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.45b07dd9.css",
-    "static/js/main.996ed648.js"
+    "static/js/main.d7b2c4e9.js"
   ]
 }
