@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import axios from '../axiosConfig'; // Importa la configuración de Axios
+import axios from '../axiosConfig';
 import { Button } from './ui/button';
 import { Input } from './ui/input'; 
 import { Label } from './ui/label'; 

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import axios from 'axios';
-import { Button } from './ui/button';
+import axios from '../axiosConfig';
 import { Input } from './ui/input';
 import { Label } from './ui/label';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from './ui/card';
@@ -14,7 +13,7 @@ const PasswordResetRequest = ({ onBackToLogin }) => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await axios.post('http://localhost:3000/auth/forgot-password', 
+      const response = await axios.post('/auth/forgot-password', 
         { correo: email }, // Changed from email to correo
         {
           headers: {

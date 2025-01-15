@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import axios from 'axios';
-import { useNavigate } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
+import axios from '../axiosConfig';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
 import { Label } from './ui/label';
@@ -16,7 +16,7 @@ const PasswordResetRequest = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      await axios.post('http://localhost:3000/auth/forgot-password', { email }, {
+      await axios.post('/auth/forgot-password', { email }, {
         headers: {
           'Content-Type': 'application/json',
         },

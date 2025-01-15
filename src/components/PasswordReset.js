@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import axios from 'axios';
 import { useParams, useNavigate } from 'react-router-dom';
+import axios from '../axiosConfig';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
 import { Label } from './ui/label';
@@ -23,7 +23,7 @@ const PasswordReset = () => {
     }
 
     try {
-      await axios.post(`http://localhost:3000/auth/reset/${token}`, { password, confirmPassword }, {
+      await axios.post(`/auth/reset/${token}`, { password, confirmPassword }, {
         headers: {
           'Content-Type': 'application/json',
         },
