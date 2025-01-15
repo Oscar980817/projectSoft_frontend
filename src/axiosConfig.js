@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: 'http://localhost:3000', // Asegúrate de que la URL base sea correcta
+  baseURL: 'https://projectsoft-backend.onrender.com',
   headers: {
     'Content-Type': 'application/json',
   },
